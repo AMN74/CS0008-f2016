@@ -1,0 +1,67 @@
+#One acre of land is equivalent to 4,046.8564224 m2 (square meters).
+#Write a program that asks the user to enter the total square meters of land and calculates the number of acres in the tract.
+# exercise 2 #1
+x = float(input("Enter the total square meters of land:"))
+print(x / 4046.8564224)
+
+#Assuming there are no accidents or delays, the distance that a car travels down the interstate can be calculated with the following formula:
+#Distance = Speed * Time
+#A car is traveling at 90Km/h (Kilometers per hour). Write a program that displays the following:
+#• The distance the car will travel in 6 hours
+#• The distance the car will travel in 10 hours
+#• The distance the car will travel in 15 hours
+#• The distance the car will travel in 2 hours and 25 minutes
+
+print("The distance the car travels going 90kilometers/hour")
+x = 90
+print("In 6 hours:")
+print(x * 6)
+print("In 10 hours:")
+print(x * 10)
+print("In 15 hours:")
+print(x * 15)
+print("In 2 hours and 25 minutes:")
+print(x * 2.25)
+
+#A car’s fuel consuption (Liters per 100 Kilometers) can be calculated with the following formula: L per 100Km = 100 * Liters used / Kilometers driven
+#Write a program that ask the user for the number of miles driven and the gallons of gas used.
+# It should convert to metrics and than display Km driven, liters used and L per 100Km.
+
+x = float(input("Enter the number of miles driven:"))
+y = float(input("Enter the gallons of gas used:"))
+metric_miles = (1.6 * x)
+metric_gallons = (3.79 * y)
+L = (100 * metric_gallons / metric_miles)
+print("kilometers driven:")
+print(metric_miles)
+print("Liters used:")
+print(metric_gallons)
+print("liters per 100km:")
+print(L)
+
+#Write a program that converts Fahrenheit temperatures to Celsius temperatures. The formula is as follows:
+#C = 5 * ( F – 32 ) / 9
+#The program should ask the user to enter a temperature in Fahrenheit, and than display the temperature converted to Celsius.
+
+x = float(input("Enter the temperature in Fahrenheit:"))
+c = (5 * ( x - 32 ) / 9)
+print(c)
+
+#A cookie recipe calls for the following ingredients:
+# 300gr of sugar
+# 240gr of buttes
+# 330gr of flour
+#The recipe produces 48 cookies with this amount of the ingredients.
+# Write a program that asks the user how many cookies he or she wants to make, and then displays the quantity needed for each ingredient
+# for the specified number of cookies.
+
+x = float(input("How many cookies do you want to make?"))
+sugar = (300 / 48) * x
+buttes = (240 / 48) * x
+flour = (330 / 48) * x
+print ("Amount of sugar needed in grams:")
+print(sugar)
+print("Amount of buttes needed in grams")
+print(buttes)
+print("Amount of flour needed in grams")
+print(flour)
