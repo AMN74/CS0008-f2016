@@ -1,0 +1,11 @@
+/Library/Frameworks/Python.framework/Versions/3.4/bin/python3.4 "/Users/amulianambiar/PycharmProjects/CS0008-f2016/f2016_cs8_<AMN74>_a1/Assignment #1.py"
+Would you like to use USC or Metric?Metric
+What is the distance driven?200
+How much gas is used?12
+									USC	 			Distance
+Distance ______________:     124.274  miles       200.000 Km
+Gas ___________________:     3.170    gallons     12.000  liters
+Consumption ___________:     39.202   mpg         6.000   1/100km
+Gas Consumption Rating :     Average
+
+Process finished with exit code 0

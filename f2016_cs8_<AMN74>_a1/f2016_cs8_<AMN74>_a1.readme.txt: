@@ -1,0 +1,15 @@
+The first thing I did to write this program was make an outline of the program on a piece of paper. This way I could
+figure out how many variables I needed as well as create a structure for the program itself. After I did this, I
+started actually writing the program. First thing I did is create three different prompts. The first line asks the
+user is they are using USC or Metric units for the values they will enter. The second line asks the user "What is
+the distance driven?" and the third line asks the user 'how much gas is used?'. The user is prompted these questions
+so that we can calculate the miles, gallons, mpg, km, liters, 1/100km based on the unit system the user is using.
+On line 5 I created a conversion factor that would convert the miles to kilometers. On line 6 I created a
+conversion factor that would convert kilometers to miles. Line 8 has a variable that will convert kilometers to miles.
+Line 9 has a variable that will convert liters to gallons. line 11 has the variable cm value if the user inputs values
+in USC. Line 12 has the variable cm value if the user inputs values in metric. Lines 16-19 are outputted if the user
+inputs USC. These lines have the output template and values. Lines 22-25 consists of the same thing excpet these lines
+are outputted if the user enters Metric. The else statement is there so that an ERROR message will pop up if the user
+does not enter Metric or USC and the input is case sensitive. In order to execute the output I used if-elif-else.
+This is demonstrated in lines 15-28. Lines 32-41 consists of conditional statements that will output the correct
+the gas consumption rating. These values are based on the given table.
