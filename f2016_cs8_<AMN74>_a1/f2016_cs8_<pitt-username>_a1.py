@@ -40,5 +40,5 @@ if 8 < cm <= 10:
 if cm <= 8:
     print("Gas Consumption Rating :     Excellent")
 
-#This is the end of the program
+#This is the end of the python program
 
