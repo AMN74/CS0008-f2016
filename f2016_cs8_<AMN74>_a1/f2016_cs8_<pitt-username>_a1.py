@@ -13,13 +13,13 @@ cm2 = (z / y) * 100 # This is the cm value if the user inputs values in metric
 
 #The following is a conditional statement. This will run if the user inputs a 1 value indicating that their values are in USC
 if x == "USC":
-    print("\t\t\t\t\t\t\t\tUSC\t \t\t\tDistance\t")
+    print("\t\t\tUSC\t \t\t\tDistance\t")
     print("Distance ______________:     " + format(y, ',.3f') + "  miles" + format(a, '12,.3f') + "  Km")
     print("Gas ___________________:     " + format(z, ',.3f') + "   gallons" + format(b, '10,.3f') + "  liters")
     print("Consumption ___________:     " + format(y / z, ',.3f') + "   mpg" + format(cm, '13,.3f') + "   1/100km")
 #This is another conditional statement. This will run if the user inputs a 2 value indicating that their values are in metric.
 elif x == "Metric":
-    print("\t\t\t\t\t\t\t\t\tUSC\t \t\t\tDistance\t\t")
+    print("\t\t\tUSC\t \t\t\tDistance\t\t")
     print("Distance ______________:     " + format(c, '6,.3f') + "  miles" + format(y, '14,.3f') + " Km")
     print("Gas ___________________:     " + format(d, '5,.3f') + "    gallons" + format(z, '11,.3f') + "  liters")
     print("Consumption ___________:     " + format(c / d, '6,.3f') + "   mpg" + format(cm2, '14,.3f') + "   1/100km")
