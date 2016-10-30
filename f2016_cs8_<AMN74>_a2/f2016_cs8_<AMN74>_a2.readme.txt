@@ -1,0 +1,22 @@
+In this assignment we had to take 2 seperate .csv data files and write a program that loops all the data from the
+file that is inputed into the program. To start the projet I saved both data files. Then I started writing out the
+program. When I sat down to do this I was confused as to how I could seperate the data within the file. Because of this I didn't
+really know how to start. After Thursdays lecture I felt like a had a way better understanding as to how to write and
+complete the program, as well as the logic behind the program.
+
+In terms of actually writing the program first I defined a function and added in two seperate variables.
+One variable was for the partial total number of lines and the other variable was for the partial distance.
+
+Then, using a for loop I removed the the new line in the string (\n) . I split the data that is given seperating
+the name from the numerical value (splitting ","). Then created variables that will count the total number of names
+and total distance run (or times the program looped).
+
+Futhermore, I created a function that would take the key, value, and length. Then I properly formatted the output which
+included: telling the program that the string should be 20 spaces long and telling the program that there should be a total
+of 10 spaces with 3 decimals.
+
+Additionally I, created a variable for total lines. Created a variable for total distance. Prompted the user to which
+file name needs to be read. Created a while loop that lets the program know what to do when the user does not type in 'quit'.
+Then I used operators that would add the total number of lines as well as added the total distance. Finally I created
+print statements to output the data.
+
