@@ -87,12 +87,14 @@
 #• do not forget to open and close every file and select the right mode when opening
 
 
+# MN: what does this function do?
 def processFile(fileIn):
     PTN = 0  #This is the variable for partial total of lines
     PD = 0.0 #This is the variable for the partial distance
 
-#Using a for loop we are going remove the the new line in the string (\n) . Then split the data that is given seperating
-# the name from the numerical value (splitting ",". After that we will count the total number of lines and total distance run
+    # MN: respect the indentation with comment too
+    # Using a for loop we are going remove the the new line in the string (\n) . Then split the data that is given seperating
+    # the name from the numerical value (splitting ",". After that we will count the total number of lines and total distance run
     for line in fileIn: #for each line in fileIn
         line = line.rstrip("\n") #we will take each line and remove the new line in the string
         temp = line.split(",") #Then we will split the data from the comma
@@ -113,6 +115,7 @@ def printKV(key,value,klen = 0):
 totalTN = 0 #variable for total lines
 totalD = 0 #variable for total distance
 fileName = input("File to be read: ") #prompt the user to which file name needs to be read
+# MN: what about q and empty string?
 while fileName != "quit": #what to do when the user doesn't type in 'quit'
     fileIn = open(fileName)
     PTN, PD = processFile(fileIn)
