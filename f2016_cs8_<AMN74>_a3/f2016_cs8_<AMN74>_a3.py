@@ -175,4 +175,3 @@ print("\nTotals") #This is print 'Totals' and will print a line as well
 printKV("Total # of files", totalFiles) #outputting the total number of files
 printKV("Total # of lines", totalTN) #Prints the total number of lines
 printKV("Total Distance run", totalD) #Prints the total distance run
-

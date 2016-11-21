@@ -25,7 +25,6 @@ index the information in the program and get the output information that I need.
 
 Once my data was properly formatted I created a master dictionary as well as a dictionary for all of the duplicate information.
 After that I defined the variables for total files, total lines, and total distance and set them all equal to zero.
-
 Then I prompted the user to which file name needs to be read. And I opened the file that the user inputs.
 
 Then a created a for loop so that the program knows what to do with the inputted file. For each file name the program
