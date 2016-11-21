@@ -1,0 +1,74 @@
+/Library/Frameworks/Python.framework/Versions/3.4/bin/python3.4 /Users/amulianambiar/PycharmProjects/CS0008-f2016/f2016_cs8_<AMN74>_a3/f2016_cs8_<AMN74>_a3.py
+Master file input list to be read: f2016_cs8_a3.data.txt
+Partial Total # of lines : 150
+Partial Distance run :   7506.481
+
+Partial Total # of lines : 150
+Partial Distance run :   7490.695
+
+Partial Total # of lines : 150
+Partial Distance run :   8225.780
+
+Total # of Participants : 388
+Duplicate Runners (Number of duplicates)
+Fidel : 2
+Anika : 2
+Alison : 2
+Antonietta : 2
+Ailene : 2
+Clair : 2
+Chris : 2
+Mendy : 2
+Ronda : 2
+Trevor : 2
+Carisa : 2
+Maximo : 2
+Glynis : 3
+Lexie : 2
+Fannie : 2
+Alda : 2
+Clarita : 2
+Sherill : 2
+Shondra : 2
+Joycelyn : 2
+Otto : 2
+Celinda : 2
+Tenesha : 2
+Ronna : 2
+Shasta : 2
+Richelle : 2
+Nieves : 2
+Leona : 2
+Garry : 2
+Ariana : 2
+Larhonda : 2
+Randell : 2
+Tomi : 2
+Ernesto : 2
+Thomasena : 2
+Hilaria : 2
+Ignacia : 2
+Hien : 2
+Jule : 2
+Sherman : 2
+Julie : 2
+Willis : 2
+Jake : 2
+Jamison : 2
+Leora : 2
+Kyle : 2
+Lyda : 2
+Shani : 2
+Leon : 2
+Hyacinth : 2
+Florentina : 2
+Arden : 2
+Scot : 2
+Mozella : 2
+Max Distance Run by Roland :     99.918
+Min Distance Run by Alex :      0.058
+
+Totals
+Total # of files : 3
+Total # of lines : 450
+Total Distance run :  23222.956

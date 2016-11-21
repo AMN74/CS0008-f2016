@@ -1,0 +1,42 @@
+So when I first looked at this assignment I recognized that fact that it was similar to Assignment #2. So to start off writing
+this program the first thing I did was copy the program I wrote for assignment #2 and paste it to use as a shell for
+assignment #3.
+
+To start off the program I made no changes form the beginning of the last program.
+
+
+Then I created a variable for partial total of lines; variable for the partial distance; variable in which information
+will be stored to; variable in which information will be stored to. After that, I used a for loop to remove the the new line
+in the string (\n) . Then I split the data that is given separating the name from the numerical value
+After that I counted the total number of lines and total distance run we will take each line and remove the new line in
+the string. Then I split the data from the comma; assigned the indexed information into a variable; Got the current
+runners distance traveled. Moreover, I started a conditional statement to create a counter for the names. Within the conditional statement
+of the counter the first time a name appears in a list it will be added to the name in the counter. The second time the same
+name appears it will not be added to the counter.
+
+Furthermore I created a function that takes in the key,value, and length. Then I formatted the string the program will output
+to 20 spaces. Similarly, I formatted the program so that there is a total of 10 spaces with 3 decimals.
+Finally I formatted the key and the value.
+
+Now in order to get all the data I wanted outputted I created dictionaries that could help me access the data. Unlike
+assignment #2, the data in these .csv files were not seperated by columns. As a result, I couldnt properly index the information
+form the data set to get the information that I needed. So I had to edit the data within the data files so that I could
+index the information in the program and get the output information that I need.
+
+Once my data was properly formatted I created a master dictionary as well as a dictionary for all of the duplicate information.
+After that I defined the variables for total files, total lines, and total distance and set them all equal to zero.
+
+Then I prompted the user to which file name needs to be read. And I opened the file that the user inputs.
+
+Then a created a for loop so that the program knows what to do with the inputted file. For each file name the program
+with add one to the counter. To process the data the program will remove the new line in the string. Following this I created
+a list for the runners as well as a list of duplicate runners. This information is then updated to the master dictionary as
+well as the dictionary for duplicated names.
+
+At the end of the program I essentially have print statements that will output the data calculated in the program.
+This includes: adding the total number of lines, adding the total distance, printing the partial total number of lines,
+printing the total partial distance of the run.
+
+At the very end I got the max and minimum distance from the master dictionary; got the length of the master
+dictionary for the total number of participants; the number of duplicated runners;runner with the max distance; Outputted
+the runner with the min distance. I ended with print statements of my totals values.
