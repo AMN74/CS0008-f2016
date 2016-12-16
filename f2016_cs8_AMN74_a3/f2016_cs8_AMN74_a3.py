@@ -96,6 +96,11 @@
 #functions, for loops, while loops, lists, sets and dictionaries.
 #Page 3 of 3
 
+#
+# Notes:
+# MN: please do not use inline comments. It makes it really hard to read the code
+
+# MN: what does this function do?
 def processFile(fileIn):
     PTN = 0  #This is the variable for partial total of lines
     PD = 0.0 #This is the variable for the partial distance
@@ -115,6 +120,7 @@ def processFile(fileIn):
                 dupeList[name] += 1
             else:
                 dupeList[name] = 2 #when a copy of the name appears to the counter do not add to the counter
+            # MN: shouldn't you add the current distance to the previous ones?
             if CRD > runnerList[name]:
                 runnerList[name] = CRD
 
@@ -156,6 +162,8 @@ for fileName in masterFileIn: #what to do when the user doesn't type in 'quit'
     printKV("Partial Total # of lines", PTN) #printing the partial total number of lines
     printKV("Partial Distance run", PD)   #printing the total partial distance of the run
     print("")
+    # MN: where do you close fileIn?
+    fileIn.close()
 
 maxDist = max(masterDictionary, key=masterDictionary.get) #getting the max distance from the master dictionary
 minDist = min(masterDictionary, key=masterDictionary.get) #geting the minimum distance from the master dictionary
