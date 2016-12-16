@@ -1,0 +1,21 @@
+After reading over the assignment I recognized that for this final project we were building off of assignment #3.
+So to start writing this program I copied and pasted the program I wrote for assignment #3 to use as a shell for this
+final program. Almost everything in this project was the same as assignment #3 expect we has to create an output file as
+well define new methods into our program using new data files. I started off my final project by creating the necessary
+.txt and .py files, as well adding the data files into PyCharm. Then, I copied and pasted my program for assignment
+#3 into the python file. After this I added the description of the assignment into the python file. Then at beginning
+of the program I defined a class. Within the class I created 3 separate variables (name, distance, and runs).
+Within the class I defined various methods. When I originally defined certain methods I forgot to add conditional statements.
+For example, for the method addDistances I forgot to use conditional statements. Because of this my program wouldn't work
+properly. After using my professors solution as a reference I recognized that I needed to add these statements into
+the method for it to work. Additional to the methods that we had to create, I defined an additional method that could
+get the total amount of runs. After properly defining all of the methods within the class, I wrote the part of the program
+that creates the output file. I found this part quite challenging and spend a significant amount of time trying to
+figure this out. Since I approached the assignment differently compared to my instructor I couldn't really use his
+solution as much of a reference. I ran into quite a bit of issues as I was trying to get the program to write the
+correct data into the program. After I thought I had finished writing the program, I kept getting an error saying that
+a numerical value was expected but the program found string values. When I thought I had finally fixed the issue the
+program gave me an error that it could implicitly turn integer values into strings. As a result, I spent quite a bit of
+time trying to figure out what created this error. Eventually, I was able to figure out the issue and was able to get
+the necessary information into the output file. Despite this, I was still unable to figure out how to properly format
+the data in the output file.
