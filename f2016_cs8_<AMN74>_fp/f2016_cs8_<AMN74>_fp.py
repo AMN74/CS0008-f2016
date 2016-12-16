@@ -309,3 +309,5 @@ for runner in masterParticipants:
 outFile.close()
 #prints the total duplicates
 printKV("Total Dupes", dupePersons)
+
+#end of program
